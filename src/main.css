@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
+
+body {
+    background: rgba(241, 194, 5, 0.459);
+    margin: 0;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(224, 167, 8, 0.801);
+    border-bottom: 1px solid orange;
+    color: aliceblue;
+}
+
+h1 {
+    margin: 0 20px;
+    flex-grow: 2;
+}
