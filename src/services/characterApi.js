@@ -1,9 +1,16 @@
 
-const URL = 'https://last-airbender-api.herokuapp.com/api/v1/characters/random?count=10';
+const URL = 'https://last-airbender-api.herokuapp.com/api/v1/characters';
 
 const CharacterApi = {
-    getCharacters() {
-        return fetch(URL)
+    getCharacters(query) {
+        let url = URL;
+
+        if(query) {
+            url = `${URL}?${query}`;
+        }
+
+
+        return fetch(url)
             .then(response => response.json());
     }
 };

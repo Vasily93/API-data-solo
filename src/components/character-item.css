@@ -1,13 +1,14 @@
 .character-item {
     list-style: none;
-    height: 250px;
+    height: 280px;
     width: 300px;
     border: 1px solid rgb(88, 46, 204);
-    background: whitesmoke;
+    background: rgba(245, 140, 4, 0.808);
     text-align: center;
     margin: 0 10px 10px 0;
 }
 
 .character-item img {
     height: 150px;
+    padding-top: 10px;
 }

@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
 
 body {
-    background: rgba(241, 194, 5, 0.459);
+    font-family: 'Heebo', "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    background: rgba(216, 177, 23, 0.76);
     margin: 0;
+}
+
+header, main {
+    padding: 8px;
+    text-align: center;
+
 }
 
 main {
@@ -13,12 +20,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(224, 167, 8, 0.801);
+    background: whitesmoke;
     border-bottom: 1px solid orange;
-    color: aliceblue;
 }
 
 h1 {
     margin: 0 20px;
     flex-grow: 2;
 }
+
