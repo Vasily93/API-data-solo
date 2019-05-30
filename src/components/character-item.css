@@ -1,6 +1,6 @@
 .character-item {
     list-style: none;
-    height: 250px;
+    height: 280px;
     width: 300px;
     border: 1px solid rgb(88, 46, 204);
     background: whitesmoke;
@@ -10,4 +10,5 @@
 
 .character-item img {
     height: 150px;
+    padding-top: 10px;
 }

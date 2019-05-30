@@ -31,6 +31,7 @@ class Component {
         });
         const oldRoot = this.rootElement;
         const newDOM = this.render();
+        console.log(oldRoot);
         oldRoot.replaceWith(newDOM);
     }
 }
