@@ -14,8 +14,9 @@ test('render template from data', assert => {
 
     assert.htmlEqual(rendered, /*html*/ `
         <li class="character-item">
-            <img src="undefined">
+            <img src="../../assets/download.jpg">
             <h2>Kori Morishita</h2>
+            <a href="#enemies=Kori Morishita">Enemies</a> <a href="#allies=Kori Morishita">Allies</a>
         </li>
     `);
 });
